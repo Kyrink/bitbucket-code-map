@@ -1,3 +1,5 @@
+> **Internal Bitbucket edition:** The self-hosted tool is in [`internal/`](internal/README.md). It accepts Bitbucket Cloud repositories, source files, folders, and ZIP projects, with C#/.NET, Python, and PowerBuilder analysis. Run `cd internal && npm ci && npm run dev`, then open <http://127.0.0.1:3100>. It requires no R2, Redis, or AI provider. The original upstream application is documented below.
+
 # GitDiagram
 
 Visualize any codebase: turn any public or private GitHub repository into an interactive architecture diagram, or watch it explained in a one-minute narrated video. AI agents can use it too, through the [MCP server](#use-gitdiagram-from-ai-agents) or the Markdown version of any diagram (`gitdiagram.com/owner/repo.md`).
